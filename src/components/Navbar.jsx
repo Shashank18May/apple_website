@@ -1,5 +1,6 @@
 import React from "react";
 import { appleImg } from "../utils";
+import { useEffect } from "react";
 
 const Navbar = () => {
   return (
