@@ -1,5 +1,5 @@
 import React from "react";
-import { appleImg } from "../utils";
+import { appleImg, bagImg, searchImg } from "../utils";
 import { useEffect } from "react";
 
 const Navbar = () => {
@@ -8,9 +8,13 @@ const Navbar = () => {
       <nav>
         <img src={appleImg} alt="Apple" width={14} height={18} />
         <div>
-          {["Phones", "Macbooks", "Tablets"].map((nav, i) => (
-            <div>{nav}</div>
+          {["Phones", "Macbooks", "Tablets"].map((nav) => (
+            <div key={nav}>{nav}</div>
           ))}
+        </div>
+        <div>
+          <img src={searchImg} alt="magnifying glass" width={18} height={18} />
+          <img src={bagImg} alt="bag" width={18} height={18} />
         </div>
       </nav>
     </header>
