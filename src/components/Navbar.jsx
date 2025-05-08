@@ -13,7 +13,7 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <img src={searchImg} alt="magnifying glass" width={18} height={18} />
+          <img src={searchImg} alt="search" width={18} height={18} />
           <img src={bagImg} alt="bag" width={18} height={18} />
         </div>
       </nav>
