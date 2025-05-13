@@ -1,5 +1,4 @@
 import { useGSAP } from "@gsap/react";
-import React from "react";
 
 const Highlights = () => {
   useGSAP(() => {
@@ -11,11 +10,11 @@ const Highlights = () => {
   return (
     <section
       id="highlights"
-      className="w-screen overflow-hidden h-full common-padding bg-zinc"
+      className="w-screen overflow-hidden h-full padding-common bg-zinc"
     >
       <div>
         <h1 id="title" className="section-heading">
-          Get the highlights
+          Get the highlight
         </h1>
       </div>
     </section>
