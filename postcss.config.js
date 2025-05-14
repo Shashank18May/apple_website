@@ -1,6 +1,7 @@
-export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
+// .stylelintrc
+module.exports = {
+  extends: [
+    "stylelint-config-tailwindcss",
+    // other configurations if any
+  ],
+};

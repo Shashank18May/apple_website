@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+ {
+  --color--blue: rgb(115, 200, 245);
+  --color--gray-300: rgb(200, 200, 200);
+}
 * {
   margin: 0;
   padding: 0;
