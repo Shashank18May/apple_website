@@ -13,7 +13,7 @@ const Highlights = () => {
       <div className="screen-max-width">
         <div>
           <h1 id="title" className="section-heading">
-            Get the highlights
+            Get the highlight
           </h1>
         </div>
       </div>
